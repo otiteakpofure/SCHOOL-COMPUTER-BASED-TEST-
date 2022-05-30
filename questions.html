@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-fontawesome/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="bootstrap-fontawesome/font-awesome-4.5.0/css/font-awesome.min.css">
+ 
+   
+    <title>QuizApp</title>
+</head>
+<body>
+    <!-- this is for the navbar  -->
+    <nav class="navbar navbar-light bg-dark colorNav">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light">Time counter: <span id="countdown"></span></a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success text-light" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!-- end of navbar -->
+
+ <!-- This is for the questions page -->
+<!-- This is for the login form -->
+<div class="container-fluid" id="top">
+         
+    <div class="row">
+        <div class="col md-1 col-sm-0 col-0"></div>
+       <!-- This is for the login informations -->
+       <div class="col-md-8 col-sm-12 col-12 borderoutline">
+           <!-- this is for the image -->
+           <div class="row">
+               <div class="text-center mt-3">
+                 <img src="./images/images.png" class="">
+               </div>
+           </div>
+           <!-- QUESTIONS , OPTIONS AND ANSWER CONTAINER -->
+      
+           <div class="container">
+               <h1 id ='myScore' class="text-center mt-5"></h1>
+            <div id="questionContainer" class="mt-3 text-center">
+        
+            </div>
+            <div id="optionContainer" class="mt-3 " >
+            </div>
+            <div class="mt-2" id="timeUp" style="color:red; font-size:1.5rem; text-align: center; font-weight: bold; text-transform: uppercase;"> Time Up! The Quiz is Over</div>
+            <div id="buttonContainer">
+                <button type="submit" id="next" class="btn mb-3 offset-lg-5 colorBtn">NEXT</button>
+                <!-- this is for the submit button -->
+                <button type="submit" id="submitBtn" class="btn mb-3 offset-lg-5 colorBtn">SUBMIT</button>
+                <!-- This is for the avatar on the print page -->
+                <!-- This is for the display for the quiz end  -->
+              
+               <div class="mt-3">
+                <img src="./images/profile.jpg" id="imageHide" class="mx-auto" style="width:100px; height:100px;">
+               </div>
+                <!-- for the print button -->
+                <button type="submit" id="print" class="btn mb-3 colorBtn"> <i class="fa-solid fa fa-print"></i> PRINT</button>
+            </div>
+        </div>
+  <!-- END QUESTIONS AND ANSWER CONTAINER  -->
+       </div>
+       <div class="col md-1 col-sm-0 col-0"></div>
+    </div>
+   </div>
+
+<script src="questions.js"></script>
+</body>
+</html>
+
+

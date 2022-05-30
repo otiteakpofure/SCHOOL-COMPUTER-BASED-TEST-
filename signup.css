@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* This is style for margin from the navbar */
+#top{
+    margin-top: 70px;
+}
+
+/* this is the style for the border outline  */
+.borderoutline{
+    border:5px solid rgb(9, 9, 117) ;
+    height: fit-content;
+    box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 12px 12px rgba(0,0,0,0.23);
+}
+
+.btnSize{
+    width:200px;
+}
+
+/* 
+this is for the namechange */
+
+.nameChange{
+    color:rgb(9, 9, 117);
+    text-decoration: none;
+}
+
+.colorNav ,.btnColor , .colorBtn{
+    background-color: rgb(9, 9, 117) !important;
+}
+
+ .btnMove{
+    text-align: center;
+} 
+
+.colorBtn{
+    color:white !important;
+}
+
+

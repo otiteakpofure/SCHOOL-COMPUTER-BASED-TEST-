@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-fontawesome/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="bootstrap-fontawesome/font-awesome-4.5.0/css/font-awesome.min.css">
+    <title>Quiz-App</title>
+</head>
+<body>
+
+    
+
+      <!-- This is for the login form -->
+      <div class="container-fluid" id="top">
+         
+       <div class="row">
+           <div class="col md-1 col-sm-0 col-0"></div>
+          <!-- This is for the login informations -->
+          <div class="col-md-8 col-sm-12 col-12 borderoutline">
+              <!-- this is for the error message of user  -->
+            <div id="errormessage" style="text-align:center; margin-bottom:10px;color:red; font-weight:bold;"></div>
+            <!-- this is the end of the error message for the user -->
+              <!-- this is for the image -->
+              <div class="row">
+                  <div class="text-center mt-3">
+                    <img src="images/images.png" class="">
+                  </div>
+              </div>
+              <!-- The form of my signup page -->
+      <form action="" method="post" id="myForm">
+        <div class="form-input">
+             <div class="mb-3 mt-5">
+                 <label for="exampleFormControlInput1" class="form-label" style="color:rgb(9, 9, 117)"> Email Address</label>
+                 <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+             </div>
+             <div class="mb-3">
+                 <label for="exampleFormControlInput1" class="form-label" style="color:rgb(9, 9, 117)">Exam ID</label>
+                 <input type="text" class="form-control" id="exam-id" placeholder="Enter Your Exam Id" >
+             </div>
+             <!-- start of button -->
+             <div class="btnContainer mb-5 mt-5" id="btnContainer">
+                 <div class="d-grid gap-2">
+                     <button class="btn btn-success mx-auto btnSize btnColor" type="submit" id="login">Submit</button>
+                 </div>
+                 <!-- end of the button -->
+                 <h6 class="text-center mt-5 mb-5"> Designed and created by <a href="mailto:akpofure.otite@gmail.com" class="nameChange">Otite Akpofure</a></h6>
+             </div>
+            
+        </div>
+     </form>
+     <!-- end of the signup page  -->
+          </div>
+          <div class="col md-1 col-sm-0 col-0"></div>
+       </div>
+      </div>
+      
+      
+     <script src="signup.js"></script> 
+</body>
+</html>
